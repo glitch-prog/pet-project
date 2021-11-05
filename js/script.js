@@ -1,7 +1,3 @@
-const body = document.getElementsByTagName('BODY');
-const btn = document.getElementById('btn');
-const input = document.getElementById('input');
-const inputCase = document.querySelector('.input__case');
 const commentBlock = document.querySelector('.comment__block');
 const dishCard = document.querySelectorAll('.dish__card');
 const confirmCard = document.querySelector('.confirm__card');

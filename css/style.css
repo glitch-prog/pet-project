@@ -17,14 +17,17 @@
 }
 
 .confirm__card {
+  top: 200px;
+  left: 500px;
   display: none;
-  
+  position: absolute;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 500px;
   height: 300px;
   border: 1px solid #000;
+  background: #fff;
 }
 
 .confirm__card input {
