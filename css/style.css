@@ -29,6 +29,20 @@
   height: 300px;
   border: 1px solid #000;
   background: #fff;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+
+  }
+
+  to {
+    margin-top: 0%;
+
+  }
 }
 
 .confirm__card input {
@@ -48,6 +62,8 @@
   max-width: 300px;
   max-height: 300px;
 }
+
+
 /*
 .input__case {
   max-width: 50%;
